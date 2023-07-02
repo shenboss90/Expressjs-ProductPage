@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    background-color: aquamarine;
+    font-size: 40px;
+    display: flex;
+}
+.navbar > li{
+    list-style-type: none;
+}
+
+.navbar>li>a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.product{
+    width: 50%;
+    margin-left: 2%; 
+    margin-bottom: 20px;
+    
+    
+}
+.producttitle{
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.productprice{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.productdetails{
+    font-size: 25px;
+    margin: 15px;
+}
+.product img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.postform{
+    margin-top: 40px;
+}
+.formlabel{
+    font-size: 30px;
+    font-weight: 500;
+}
+.forminput{
+    padding: 15px;
+    margin-bottom: 10px;
+
+}
+.finalPost{
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: brown;
+    font-size: 19px;
+
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+   
+</head>
+<body>
+    <nav class="navbar">
+        <li><a href="/product">Product</a></li>
+       <li><a href="/addProduct">Add product</a></li>
+       <li><a href="/addProduct" >Clear Products</a></li>
+    
+    </nav>
+      
+    <%
+    
+    if (pro.length>0){
+        pro.map((value , index) =>{
+            %>
+            <div class="product">
+            <div class="producttitle" > Title: <%=value.title%></div>
+                <div><img src="<%=value.image%>" alt="photo"></div>
+                <div class="productdetails">Description :<%=value.Description%></div>
+                <div class="productprice"> Price: <%=value.Price%></div>
+               
+            </div>
+      <%  })
+    } %>
+
+
+
+</body>
+</html>
